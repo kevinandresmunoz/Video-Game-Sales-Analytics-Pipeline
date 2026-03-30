@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Credentials - never commit these
+*.csv
+*.parquet
+kaggle.json
+credentials
+credentials.json
+*.credentials
+.aws/
+*_credentials*
+*secret*
+*access_key*
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
